@@ -36,11 +36,7 @@
 @yield('contenu')
 
 
-    <!--
-    Essential Scripts
-    =====================================-->
-
-
+    <!-- Essential Scripts =====================================-->
 
     <!-- Main jQuery -->
     <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>

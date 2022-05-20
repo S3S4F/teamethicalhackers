@@ -243,7 +243,7 @@
     </section>
     <!--  SERVICE AREA END  -->
 <!-- PRICE AREA START  -->
-    <section id="pricing" class="section-padding bg-main">
+    {{-- <section id="pricing" class="section-padding bg-main">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12 m-auto">
@@ -325,7 +325,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- PRICE AREA END  -->
 <!--  TESTIMONIAL AREA START  -->
     <section id="testimonial" class="section-padding ">
@@ -587,11 +587,7 @@
 
 
 
-    <!--
-    Essential Scripts
-    =====================================-->
-
-
+    <!--    Essential Scripts    =====================================-->
     <!-- Main jQuery -->
     <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
     <!-- Bootstrap 4.3.1 -->

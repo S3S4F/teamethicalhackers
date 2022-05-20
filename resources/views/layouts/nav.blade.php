@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg fixed-top trans-navigation">
     <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="{{url('/')}}">
             <img src="images/logo.png" alt="" class="img-fluid b-logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav ">
                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="{{url('/')}}" id="navbarWelcome" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
                         Accueil
                     </a>
                     {{-- <div class="dropdown-menu" aria-labelledby="navbarWelcome">
@@ -47,7 +47,7 @@
                     <a class="nav-link smoth-scroll" href="{{ url('/service') }}">service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link smoth-scroll" href="contact.html">Contact</a>
+                    <a class="nav-link smoth-scroll" href="{{url('/contact')}}">Contact</a>
                 </li>
             </ul>
         </div>
