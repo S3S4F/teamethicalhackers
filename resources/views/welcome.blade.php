@@ -9,7 +9,7 @@
     <meta name="keywords" content="marketing,digital marketing,creative, agency, startup,promodise,onepage, clean, modern,seo,business, company">
     <meta name="author" content="Themefisher.com">
 
-   <title>Promodise - seo and digital marketing solution </title>
+   <title>Team Ethical Hackers</title>
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.css') }}">
     <!-- Icofont Css -->
@@ -41,11 +41,11 @@
                 <div class="row">
                     <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
                         <div class="banner-content content-padding">
-                            <h5 class="subtitle">A creative agency</h5>
-                            <h1 class="banner-title">We craft seo and digital markting services</h1>
-                            <p>We provide marketing services to startups and small businesses to looking for a partner for their digital media, design-area.We are a a startup company to be commited to work and time management.</p>
+                            <h5 class="subtitle">Team Ethical Hackers</h5>
+                            <h1 class="banner-title">"Coding for a better life !"</h1>
+                            {{--  <p>We provide marketing services to startups and small businesses to looking for a partner for their digital media, design-area.We are a a startup company to be commited to work and time management.</p>
 
-                            <a href="#" class="btn btn-white btn-circled">lets start</a>
+                            <a href="#" class="btn btn-white btn-circled">lets start</a>  --}}
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
             <div class="row">
                 <div class="col-lg-12 col-sm-12 col-md-12">
                     <div class="section-heading">
-                        <p class="lead">We are creative digital marketing agency with expertise to grow any business that need proper guidance and a committed service.</p>
+                        <p class="lead">NOUS SOMMES LA TEAM ETHICAL HACKERS, UN CLUB DE JEUNES DÉVELOPPEURS ET ADMINISTRATEURS RESEAUX DE L'UNIVERSITÉ ALIOUNE DIOP DE BAMBEY, PASSIONÉS DE HACKING ET DE CODING!</p>
                     </div>
                 </div>
             </div>
