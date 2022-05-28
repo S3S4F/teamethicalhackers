@@ -1,15 +1,22 @@
 @extends('app')
 @section('contenu')
+<link rel="shortcut icon" href="{{asset('assets/images/fav.png')}}" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="{{asset('assets/images/fav-icon.png')}}">
+<link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{asset('assets/css/all.min.css')}}">
+<link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
+<link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}" />
 
 <!--MAIN BANNER AREA START -->
-<div class="page-banner-area page-contact" id="page-banner">
+<div class="page-banner-area page-contact" id="page-banner" style="background:url(assets/images/blog/1.jpg)">
     <div class="overlay dark-overlay"></div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
                 <div class="banner-content content-padding">
-                    <h1 class="text-white">Check our story</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, perferendis?</p>
+                    <h1 class="text-white subtitle">TΞΛM ΞTHIϾΛŁ HΛϾКΞЯS</h1>
+                    <p>l'espace des membres de la Team </p>
                 </div>
             </div>
         </div>
@@ -23,95 +30,103 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
-                    <h3 class="mb-3">We’re Innovators & <br>SEO Marketing Agency</h3>
-                    <p class="mb-4">We provide marketing services to startups and small businesses to looking for a partner for their digital media, design-dev, lead generation</p>
+                    <h3 class="mb-3">Papa Sidy Makhtar TRAORE <br>Président de la Team Etickal Hackers</h3>
+                    <p class="mb-4"> Jeune étudiant en Systèmes d’Information, je suis un travailleur dévoué et astucieux. Acquérir de nouvelles compétences et plus d’expérience est ma motivation quotidienne.</p>
 
-                    <span class="h5 mb-4">Let's Check what we do actually :</span>
+                    <span class="h5 mb-4">Développeur full stack avec :</span>
                     <ul class="about-list2 my-4">
-                        <li class="mb-2"><i class="icofont icofont-check-circled"></i> Best Analytics Audits to your site in specific niche</li>
+                        <li class="mb-2"><i class="icofont icofont-check-circled"></i> Angular et MongoDB </li>
 
                         <li class="mb-2">
-                            <i class="icofont icofont-check-circled"> </i> Modern Keyword Analysis to keep up to date
+                            <i class="icofont icofont-check-circled"> </i> CodeIgniter
                         </li>
 
                         <li class="mb-2">
-                            <i class="icofont icofont-check-circled"> </i> More quality content, social networking and relative sharing
+                            <i class="icofont icofont-check-circled"> </i> Laravel front-end developer
                         </li>
 
                         <li class="mb-2">
-                            <i class="icofont icofont-check-circled"> </i> Social networking and relative sharing More quality content,
+                            <ul class="list-unstyled list-inline team-social mt-4">
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href=" https://linkedin.com/in/traoré"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
                         </li>
                     </ul>
 
-                    <a href="#" class="mt-3 d-inline-block">Learn more about us <i class="fa fa-angle-right"></i></a>
+                   {{--  <a href="#" class="mt-3 d-inline-block">Learn more about us <i class="fa fa-angle-right"></i></a> --}}
                 </div>
 
                 <div class="col-lg-6 col-md-4">
-                    <img src="images/about/about-4.jpg" alt="" class="img-fluid w-100">
+                    <img src="images/about/about-5.jpg" alt="" class="img-fluid w-100">
                 </div>
+
             </div>
         </div>
+        <br>
     </section>
+
+    <section class="bg-02">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="head-01">
+                        <h2>Chefs de Projet</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
+                    <div class="team-main-box">
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
+                    <div class="team-main-box">
+                        <img src="assets/images/team/7.jpg">
+                        <div class="team-content-box">
+                            <ul>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/abdou_khadre_smcif/"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a href="https://linkedin.com/in/abdou-khadre-ndiaye-802211232/"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                            <h3>Abdou Khadre NDIAYE</h3>
+                            <b>Administrateur Reseau</b>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
+                    <div class="team-main-box">
+                        <img src="assets/images/team/9.jpg">
+                        <div class="team-content-box">
+                            <ul>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                            <h3>Abdoulaye NDIAYE</h3>
+                            <b>Développeur Angular</b>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
+                    <div class="team-main-box">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+   </section>
+
     <!--  ABOUT AREA END  -->
-<!--  HISTORY AREA  -->
-<section class="section-padding pt-0">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 ">
-                <div class="media img-block mb-3 mb-lg-0">
-                    <img src="images/about/h-1.jpg" alt="" class="img-fluid rounded mr-3">
-
-                    <div class="media-body ">
-                        <h4 class="mb-3">Provide services with maintain quality from 24 years!</h4>
-                        <p>We provide marketing services to startups.Let's start your site in grow high.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="media img-block">
-                    <img src="images/about/h-2.jpg" alt="" class="img-fluid rounded mr-3">
-
-                    <div class="media-body">
-                        <h4 class="mb-3">Our mission is to provide our client what they need!</h4>
-                        <p>We provide small businesses looking for a partner for their digital media</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--  HISTORY AREA END  -->
 <!--  COUNTER AREA  -->
-<section class="section-padding pt-0">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="text-center border p-4 rounded mb-4">
-                    <span class="counter  text-dark font-weight-normal">460</span>
-                    <h5 class="text-uppercase mt-2">Our Happy Clients</h5>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="text-center border p-4 rounded mb-4">
-                    <span class="counter text-dark font-weight-normal">60</span>
-                    <h5 class="text-uppercase mt-2">Projects Done</h5>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="text-center border p-4 rounded mb-4">
-                    <span class="counter text-dark font-weight-normal">30</span>
-                    <h5 class="text-uppercase mt-2">Experienced stuff</h5>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="text-center border p-4 rounded ">
-                    <span class="counter text-dark font-weight-normal">25</span>
-                    <h5 class="text-uppercase mt-2">Ongoning Projects</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!--  COUNTER AREA END -->
 <!--  SECTION Service-2START  -->
 <section class="section-padding" id="section-strategy">
@@ -119,32 +134,30 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="mb-5">
                             <span class="icon-3x text-default"><i class="icofont-layers"></i></span>
-                            <h4 class="my-3">Be on the top of Google</h4>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. </p>
+                            <h4 class="my-3">Serigne Mbacké SECK <br>Président adjoint de la Team Etickal Hackers </h4>
+                            <p> Je suis Cofounder,Business Developper, Communication Digitale & Community manager,
+                                Développeur web et mobile Flutter et Angular </p>
                         </div>
                     </div>
+
                     <div class="col-lg-6">
-                        <div class="mb-5">
-                            <span class="icon-3x text-default"><i class="icofont-ui-timer"></i></span>
-                            <h4 class="my-3">Save your time</h4>
-                            <p>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology </p>
+                        <div>
+                            <h4 class="my-3">Développeur full stack</h4>
+                            <p>
+                                <ul class="list-unstyled list-inline team-social mt-4">
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/mbacke_sindidi/"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/mbacke_sindidi/"><i class="fab fa-github"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/services/page/8541b3316060007486"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div>
-                            <span class="icon-3x text-default"><i class="icofont-ui-browser"></i></span>
-                            <h4 class="my-3">Cross-devices ability</h4>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div>
-                            <span class="icon-3x text-default"><i class="icofont icofont-shield"></i></span>
-                            <h4 class="my-3">Trusted by hundreds</h4>
-                            <p>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology </p>
                         </div>
                     </div>
                 </div>
@@ -159,14 +172,13 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="mb-5">
-                    <h3 class="mb-2">Our Expert Members do the magical</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dignissimos?</p>
+                    <h3 class="mb-2">Equipe Communication Digital </h3>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <img src="images/team/team-1.jpg" alt="" class="img-fluid rounded w-100">
+            <div class="col-lg-4 col-md-6">
+                <img src="images/team/team2.jpg" alt="" class="img-fluid rounded w-100">
 
                 <ul class="list-unstyled list-inline team-social mt-4">
                     <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -175,12 +187,12 @@
                     <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
                 </ul>
-                <h4 class="mt-3">Michale John</h4>
-                <p>Senior Manager</p>
+                <h4 class="mt-3">Serigne Saliou Mbacké DIOME</h4>
+                <p>Développeur Front-end CodeIgniter & Designer</p>
 
             </div>
-            <div class="col-lg-3 col-md-6">
-                <img src="images/team/team-2.jpg" alt="" class="img-fluid rounded w-100">
+            <div class="col-lg-4 col-md-6">
+                <img src="images/team/faye.jpg" alt="" class="img-fluid rounded w-100">
 
                 <ul class="list-unstyled list-inline team-social mt-4">
                     <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -189,11 +201,11 @@
                     <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
                 </ul>
-                <h4 class="mt-3">Michale John</h4>
-                <p>Marketing Manager</p>
+                <h4 class="mt-3">Serigne Saliou FAYE</h4>
+                <p>UI/UX Designer && Développeur Full Stack Laravel</p>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <img src="images/team/team-3.jpg" alt="" class="img-fluid rounded w-100">
+            <div class="col-lg-4 col-md-6">
+                <img src="images/team/team3.jpg" alt="" class="img-fluid rounded w-100">
 
                 <ul class="list-unstyled list-inline team-social mt-4">
                     <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -202,49 +214,148 @@
                     <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
                 </ul>
-                <h4 class="mt-3">Michale John</h4>
-                <p>Marketing Manager</p>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <img src="images/team/team-4.jpg" alt="" class="img-fluid rounded w-100">
-
-                <ul class="list-unstyled list-inline team-social mt-4">
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
-                </ul>
-                <h4 class="mt-3">Michale John</h4>
-                <p>Junior Developer</p>
+                <h4 class="mt-3">Weyndé Hector DIENG</h4>
+                <p>Designer & Développeur Front-end Flutter et Angular</p>
             </div>
         </div>
     </div>
 </section>
 <!--  SECTION TEAM END  -->
  <!--  PARTNER START  -->
-<section class="section-padding ">
+ <section class="se-03">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 text-center text-lg-left">
-                <div class="mb-5">
-                    <h3 class="mb-2">Trusted by hundred over years</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dignissimos?</p>
+           <div class="col-12">
+                <div class="head-01">
+                    <h2>Membres</h2>
+
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-                <img src="images/clients/client01.png" alt="partner" class="img-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <article class="_lk_bg_sd_we">
+                  <div class="_bv_xs_we" style="background:url(assets/images/blog/im1.jpg"></div>
+                  <div class="_xs_we_er">
+                    <div class="_he_w">
+                      <h3>Fallou TOURE Secrétaire Général</h3>
+                      <ol>
+                        <li>Développeur Full Stack Laravel</li>
+                      </ol>
+                      <p>
+                        <ul class="list-unstyled list-inline team-social">
+                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                     </p>
+                    </div>
+                  </div>
+                </article>
             </div>
-            <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-                <img src="images/clients/client06.png" alt="partner" class="img-fluid">
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <article class="_lk_bg_sd_we">
+                  <div class="_bv_xs_we" style="background:url(assets/images/blog/im2.jpg"></div>
+                  <div class="_xs_we_er">
+                    <div class="_he_w">
+                      <h3>Mouhamed Lamine TRAORE </h3>
+                      <ol>
+                        <li> Développeur Full Stack CodeIgniter</li>
+                      </ol>
+                      <p>
+                        <ul class="list-unstyled list-inline team-social">
+                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </article>
             </div>
-            <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-                <img src="images/clients/client04.png" alt="partner" class="img-fluid">
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <article class="_lk_bg_sd_we">
+                    <div class="_bv_xs_we" style="background:url(assets/images/blog/im3.jpg"></div>
+                  <div class="_xs_we_er">
+                    <div class="_he_w">
+                      <h3>Amadou Ndiaye</h3>
+                      <ol>
+                        <li>Développeur Full Stack CodeIgniter</li>
+                      </ol>
+                      <p>
+                        <ul class="list-unstyled list-inline team-social">
+                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </article>
             </div>
-            <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-                <img src="images/clients/client05.png" alt="partner" class="img-fluid">
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <article class="_lk_bg_sd_we">
+                    <div class="_bv_xs_we" style="background:url(assets/images/blog/im4.jpg"></div>
+                  <div class="_xs_we_er">
+                    <div class="_he_w">
+                      <h3>Lamine Ayoba GUEYE Trésorier</h3>
+                      <ol>
+                        <li>Développeur Full Stack Laravel</li>
+                      </ol>
+                      <p>
+                        <ul class="list-unstyled list-inline team-social">
+                            <li class="list-inline-item"><a href=" https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=whatsapp"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href=" https://www.linkedin.com/in/mame-faye-533028232"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <article class="_lk_bg_sd_we">
+                    <div class="_bv_xs_we" style="background:url(assets/images/blog/im8.jpg"></div>
+                  <div class="_xs_we_er">
+                    <div class="_he_w">
+                      <h3>El Hadji Serigne MBACKE</h3>
+                      <ol>
+                        <li>Développeur Full Stack Symphony</li>
+                      </ol>
+                      <p>
+                          <ul class="list-unstyled list-inline team-social">
+                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
+                         </ul>
+                    </p>
+                    </div>
+                  </div>
+                </article>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <article class="_lk_bg_sd_we">
+                    <div class="_bv_xs_we" style="background:url(assets/images/blog/im5.jpg"></div>
+                  <div class="_xs_we_er">
+                    <div class="_he_w">
+                      <h3>Paul Cheikh Anta DIOUF</h3>
+                      <ol>
+                        <li> Développeur Full Stack CodeIgniter</li>
+                      </ol>
+                      <p>
+                        <ul class="list-unstyled list-inline team-social">
+                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </article>
             </div>
         </div>
     </div>
@@ -252,59 +363,39 @@
 <!--  PARTNER END  -->
 
 <!--  FOOTER AREA START  -->
+
 <section id="footer" class="section-padding">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 col-sm-8 col-md-8">
-                <div class="footer-widget footer-link">
-                    <h4>We concern about you<br> to grow business rapidly.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam hic non sunt recusandae atque unde saepe nihil earum voluptatibus aliquid optio suscipit nobis quia excepturi vel quod, iure quae.</p>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-md-4">
-                <div class="footer-widget footer-link">
-                    <h4>About</h4>
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
-            </div>
 
-            <div class="col-lg-2 col-sm-6 col-md-6">
-                <div class="footer-widget footer-link">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#">How it Works</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Report Bug</a></li>
-                        <li><a href="#">License</a></li>
-                        <li><a href="#">Terms & Condition</a></li>
-                    </ul>
+            <div class="col-lg-6 col-sm-6 col-md-6">
+                <div class="footer-widget footer-text">
+                    <h4>Contacts</h4>
+                    <p class="mail"><span>Email:</span> teamethicalhackers15@gmail.com</p>
+                    <p><span>Téléphone :</span> +221 78 370 99 08</p>
+                    <p><span>Localisation:</span> Université Alioune Diop de Bambey, Diourbel, Sénégal</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-md-6">
+            <div class="col-lg-6 col-sm-6 col-md-6">
                 <div class="footer-widget footer-text">
-                    <h4>Our location</h4>
-                    <p class="mail"><span>Mail:</span> promdise@gmail.com</p>
-                    <p><span>Phone :</span>+202-277-3894</p>
-                    <p><span>Location:</span> 455 West Orchard Street Kings Mountain, NC 28086,NOC building</p>
+                    <br> <br>
+                    <p><span>Instagram : </span>instagram.com/team_ethical_hackers?igshid=1mf7qqoq8v4nx</p>
+                    <p><span>Linkedin : </span>linkedin.com/in/team-ethical-hackers-a623aa203</p>
+                    <p><span>Github : </span>github.com/TEAM-ETHICAL-HACKERS</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="footer-copy">
-                    © 2018 Promodise inc. All Rights Reserved.
+                    © 2022 Team Ethical Hackers. All Rights Reserved.
                 </div>
             </div>
         </div>
     </div>
 </section>
+<script src="{{asset('assets/js/jquery-3.2.1.min.js')}}"></script>
+<script src="{{asset('assets/js/popper.min.js')}}"></script>
+<script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
 
 @endsection

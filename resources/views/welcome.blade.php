@@ -33,7 +33,7 @@
 @include("layouts.nav")
 
 <!--MAIN BANNER AREA START -->
-<div class="banner-area banner-3">
+<div class="banner-area banner-3" >
     <div class="overlay dark-overlay"></div>
     <div class="d-table">
         <div class="d-table-cell">
@@ -45,11 +45,11 @@
                             <h3 class="banner-title">"Coding for a better life !"</h3>
                               <p>
 
-                              La Team Ethical Hackers est un club de jeunes développeurs et administrateurs réseaux passionnés de Hacking et de Coding fondé en 2018 . 
+                              La Team Ethical Hackers est un club de jeunes développeurs et administrateurs réseaux passionnés de Hacking et de Coding fondé en 2018 .
 
                               </p>
 
-                            <a href="#intro" class="btn btn-white btn-circled">Allons-y</a>  
+                            <a href="#intro" class="btn btn-white btn-circled">Allons-y</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
 <!--  ABOUT AREA START  -->
     <section id="intro" class="section-padding bg-gray">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-lg-5  d-none d-lg-block col-sm-12">
                     <div class="intro-img">
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
@@ -192,7 +192,7 @@
 <section id="footer" class="section-padding">
     <div class="container">
         <div class="row">
-            
+
             <div class="col-lg-6 col-sm-6 col-md-6">
                 <div class="footer-widget footer-text">
                     <h4>Contacts</h4>
@@ -203,7 +203,7 @@
             </div>
             <div class="col-lg-6 col-sm-6 col-md-6">
                 <div class="footer-widget footer-text">
-                    <br> <br>         
+                    <br> <br>
                     <p><span>Instagram : </span>instagram.com/team_ethical_hackers?igshid=1mf7qqoq8v4nx</p>
                     <p><span>Linkedin : </span>linkedin.com/in/team-ethical-hackers-a623aa203</p>
                     <p><span>Github : </span>github.com/TEAM-ETHICAL-HACKERS</p>
