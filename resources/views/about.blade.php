@@ -14,11 +14,11 @@
  <div class="page-banner-area page-contact" id="page-banner">
     <div class="overlay dark-overlay"></div>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
-                <div class="banner-content content-padding">
-                    <h1 class="text-white subtitle">TΞΛM ΞTHIϾΛŁ HΛϾКΞЯS</h1>
-                    <p>l'espace des membres de la Team </p>
+        <div class="row justify-content-center ">
+            <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12 ">
+                <div class="banner-content content-padding mt-5">
+                    <h1 class="text-white  ">TΞΛM ΞTHIϾΛŁ HΛϾКΞЯS</h1>
+                    <p>Une statup de jeunes développeurs qui propose des services innovants. <br> Nous vous aidons à accelerer la croissance de votre entreprise et  de devolopper la présence digitale de votre entreprise</p>
                 </div>
             </div>
         </div>
