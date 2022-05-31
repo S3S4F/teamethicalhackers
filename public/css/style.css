@@ -596,8 +596,9 @@ INner Pages
 }
 
 .page-banner-area {
-  background: url("../images/banner/banner-about-bg.jpg") no-repeat 50% 50%;
+  background: url("../images/banner/banner-3.jpg") no-repeat 100% 0%;
   background-size: cover;
+  margin-top: 0;
 }
 
 /*-------------------- ------------

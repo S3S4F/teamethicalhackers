@@ -9,7 +9,9 @@
 <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}" />
 
 <!--MAIN BANNER AREA START -->
-<div class="page-banner-area page-contact" id="page-banner" style="background:url(assets/images/blog/1.jpg)">
+
+
+ <div class="page-banner-area page-contact" id="page-banner">
     <div class="overlay dark-overlay"></div>
     <div class="container">
         <div class="row justify-content-center">
@@ -25,12 +27,12 @@
 <!--MAIN HEADER AREA END -->
 
 
-<!--  ABout2  AREA START  -->
-    <section class="section-padding">
+<!--  Sidy presentation  -->
+<section class="section-padding">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
-                    <h3 class="mb-3">Papa Sidy Makhtar TRAORE <br>Président de la Team Etickal Hackers</h3>
+                    <h3 class="mb-3">Papa Sidy Mactar TRAORE <br>Président de la Team Etickal Hackers</h3>
                     <p class="mb-4"> Jeune étudiant en Systèmes d’Information, je suis un travailleur dévoué et astucieux. Acquérir de nouvelles compétences et plus d’expérience est ma motivation quotidienne.</p>
 
                     <span class="h5 mb-4">Développeur full stack avec :</span>
@@ -47,8 +49,8 @@
 
                         <li class="mb-2">
                             <ul class="list-unstyled list-inline team-social mt-4">
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href=" https://instagram.com/sidy_king"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
                                 <li class="list-inline-item"><a href=" https://linkedin.com/in/traoré"><i class="fab fa-linkedin"></i></a></li>
                             </ul>
                         </li>
@@ -64,71 +66,8 @@
             </div>
         </div>
         <br>
-    </section>
-
-    <section class="bg-02">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="head-01">
-                        <h2>Chefs de Projet</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
-                    <div class="team-main-box">
-
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
-                    <div class="team-main-box">
-                        <img src="assets/images/team/7.jpg">
-                        <div class="team-content-box">
-                            <ul>
-                                <li class="list-inline-item"><a href="https://www.instagram.com/abdou_khadre_smcif/"><i class="fab fa-instagram"></i></a></li>
-                                <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
-                                <li class="list-inline-item"><a href="https://linkedin.com/in/abdou-khadre-ndiaye-802211232/"><i class="fab fa-linkedin"></i></a></li>
-                            </ul>
-                            <h3>Abdou Khadre NDIAYE</h3>
-                            <b>Administrateur Reseau</b>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
-                    <div class="team-main-box">
-                        <img src="assets/images/team/9.jpg">
-                        <div class="team-content-box">
-                            <ul>
-                                <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
-                                <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
-                                <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
-                            </ul>
-                            <h3>Abdoulaye NDIAYE</h3>
-                            <b>Développeur Angular</b>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
-                    <div class="team-main-box">
-
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-   </section>
-
-    <!--  ABOUT AREA END  -->
-<!--  COUNTER AREA  -->
-
-<!--  COUNTER AREA END -->
-<!--  SECTION Service-2START  -->
+</section>
+<!--  SECTION VIce-president mbacke seck  -->
 <section class="section-padding" id="section-strategy">
     <div class="container">
         <div class="row">
@@ -165,8 +104,100 @@
         </div>
     </div>
 </section>
-<!--  SECTION Service-2 END  -->
-<!--  SECTION TEAM  -->
+<!--  Secretaire general  -->
+<section class="section pt-0">
+    <div class="container">
+        <div class="row align-items-center mt-3">
+            <div class="col-lg-5 col-sm-12 col-md-6 mb-4">
+                <img src="images/team/sg.jpg" alt="feature bg" class="img-fluid">
+            </div>
+
+            <div class="col-lg-7 pl-4">
+               <div class="mb-5">
+                    <h3 class="mb-4">Fallou TOURE <br>Secrétaire général</h3>
+                    <p>Dynamique et passionné, j'apprécie le travail en équipe tout en sachant évoluer de manière autonome pour les missions qui le nécessitent. De nature curieuse et polyvalente, j'assume mes responsabilités avec beaucoup de rigueur. Grâce à ma formation, je suis capable d'intervenir dans tout le processus de conception et de développement d'application </p>
+                </div>
+
+                <ul class="about-list">
+                    <li> <h5 class="mb-2"><i class="icofont icofont-check-circled"></i>Développeur Full-Stack Laravel</h5>
+                    </li>
+                    <li>
+                        <h5 class="mb-2"><i class="icofont icofont-check-circled"> </i>Développeur Front-End Code Igniter</h5>
+                    </li>
+                </ul>
+                <ul class="about-list2 my-4">
+                    <li class="mb-2">
+                        <ul class="list-unstyled list-inline team-social mt-4">
+                            <li class="list-inline-item"><a href=" https://www.instagram.com/tourfallou97/"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/fallougeekeralafunti"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/fallou-toure-b655801b3/"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  SERVICE AREA END  -->
+<!--  SECTION VIce-president mbacke seck  -->
+<!--  chef de projet  -->
+<section class="bg-02">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="head-01">
+                        <h2>Chefs de Projet</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-sm-6">
+                    <div class="team-main-box">
+                        <img src="assets/images/team/9.jpg">
+                        <div class="team-content-box">
+                            <ul>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                            <h3>Abdoulaye NDIAYE</h3>
+                            <b>Développeur Angular</b>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-sm-6">
+                    <div class="team-main-box">
+                        <img src="assets/images/team/7.jpg">
+                        <div class="team-content-box">
+                            <ul>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/abdou_khadre_smcif/"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a href="https://linkedin.com/in/abdou-khadre-ndiaye-802211232/"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                            <h3>Abdou Khadre NDIAYE</h3>
+                            <b>Administrateur Reseau</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-sm-6">
+                    <div class="team-main-box">
+                        <img src="images/team/chef1.jpg">
+                        <div class="team-content-box">
+                            <ul>
+                                <li class="list-inline-item"><a href="https://gitlab.com/pacadiouf"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/in/paul-cheikh-anta-diouf-473ab6211"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                            <h3>Paul Cheikh Anta DIOUF</h3>
+                            <b>Developpeur Code Igniter</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!--  chef de projet END  -->
+<!--  communications  -->
 <section class="section-padding bg-gray" >
     <div class="container">
         <div class="row">
@@ -185,7 +216,7 @@
                     <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="https://gitlab.com/Saliou97"><i class="fab fa-google-plus"></i></a></li>
                 </ul>
                 <h4 class="mt-3">Serigne Saliou Mbacké DIOME</h4>
                 <p>Développeur Front-end CodeIgniter & Designer</p>
@@ -220,147 +251,110 @@
         </div>
     </div>
 </section>
-<!--  SECTION TEAM END  -->
- <!--  PARTNER START  -->
- <section class="se-03">
+<!--TEAM communications END  -->
+<!--Les Responsables pédagogiques    -->
+<section class="section-padding pt-0">
     <div class="container">
-        <div class="row">
-           <div class="col-12">
-                <div class="head-01">
-                    <h2>Membres</h2>
-
+        <div class="row mt-5">
+            <div class="col-lg-8">
+                <div class="mb-5">
+                    <h3 class="mb-2">Les Responsables pédagogiques </h3>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <article class="_lk_bg_sd_we">
-                  <div class="_bv_xs_we" style="background:url(assets/images/blog/im1.jpg"></div>
-                  <div class="_xs_we_er">
-                    <div class="_he_w">
-                      <h3>Fallou TOURE Secrétaire Général</h3>
-                      <ol>
-                        <li>Développeur Full Stack Laravel</li>
-                      </ol>
-                      <p>
-                        <ul class="list-unstyled list-inline team-social">
-                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
-                     </p>
-                    </div>
-                  </div>
-                </article>
-            </div>
+        <div class="row mt-5">
 
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <article class="_lk_bg_sd_we">
-                  <div class="_bv_xs_we" style="background:url(assets/images/blog/im2.jpg"></div>
-                  <div class="_xs_we_er">
-                    <div class="_he_w">
-                      <h3>Mouhamed Lamine TRAORE </h3>
-                      <ol>
-                        <li> Développeur Full Stack CodeIgniter</li>
-                      </ol>
-                      <p>
-                        <ul class="list-unstyled list-inline team-social">
-                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                </article>
-            </div>
+            <div class="col-lg-6 ">
+                <div class="media img-block mb-3 mb-lg-0">
+                    <img src="images/team/im3.jpg" alt="" class="img-fluid rounded mr-3">
 
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <article class="_lk_bg_sd_we">
-                    <div class="_bv_xs_we" style="background:url(assets/images/blog/im3.jpg"></div>
-                  <div class="_xs_we_er">
-                    <div class="_he_w">
-                      <h3>Amadou Ndiaye</h3>
-                      <ol>
-                        <li>Développeur Full Stack CodeIgniter</li>
-                      </ol>
-                      <p>
-                        <ul class="list-unstyled list-inline team-social">
-                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
-                      </p>
+                    <div class="media-body ">
+                        <h4 class="mb-3">Amadou NDIAYE président commission pédagogique</h4>
+                        <p>Developpeur full-stack Code Igniter</p>
+                        <p>
+                            <ul class="list-unstyled list-inline team-social mt-4">
+                                <li class="list-inline-item"><a href="https://www.instagram.com/mbacke_sindidi/"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/mbacke_sindidi/"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/services/page/8541b3316060007486"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </p>
                     </div>
-                  </div>
-                </article>
+                </div>
             </div>
+            <div class="col-lg-6">
+                <div class="media img-block">
+                    <img src="images/team/im6.jpg" alt="" class="img-fluid rounded mr-3">
 
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <article class="_lk_bg_sd_we">
-                    <div class="_bv_xs_we" style="background:url(assets/images/blog/im4.jpg"></div>
-                  <div class="_xs_we_er">
-                    <div class="_he_w">
-                      <h3>Lamine Ayoba GUEYE Trésorier</h3>
-                      <ol>
-                        <li>Développeur Full Stack Laravel</li>
-                      </ol>
-                      <p>
-                        <ul class="list-unstyled list-inline team-social">
-                            <li class="list-inline-item"><a href=" https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=whatsapp"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href=" https://www.linkedin.com/in/mame-faye-533028232"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
-                      </p>
+                    <div class="media-body ">
+                        <h4 class="mb-3">El Hadji Serigne MBACKE président adjoint de la commission pédagogique</h4>
+                        <p>Developpeur full stack Symphony</p>
+                        <p>
+                            <ul class="list-unstyled list-inline team-social mt-4">
+                                <li class="list-inline-item"><a href="https://www.instagram.com/mbacke_sindidi/"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://gitlab.com/bayeserigne"><i class="fab fa-github"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/services/page/8541b3316060007486"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </p>
                     </div>
-                  </div>
-                </article>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <article class="_lk_bg_sd_we">
-                    <div class="_bv_xs_we" style="background:url(assets/images/blog/im8.jpg"></div>
-                  <div class="_xs_we_er">
-                    <div class="_he_w">
-                      <h3>El Hadji Serigne MBACKE</h3>
-                      <ol>
-                        <li>Développeur Full Stack Symphony</li>
-                      </ol>
-                      <p>
-                          <ul class="list-unstyled list-inline team-social">
-                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
-                         </ul>
-                    </p>
-                    </div>
-                  </div>
-                </article>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <article class="_lk_bg_sd_we">
-                    <div class="_bv_xs_we" style="background:url(assets/images/blog/im5.jpg"></div>
-                  <div class="_xs_we_er">
-                    <div class="_he_w">
-                      <h3>Paul Cheikh Anta DIOUF</h3>
-                      <ol>
-                        <li> Développeur Full Stack CodeIgniter</li>
-                      </ol>
-                      <p>
-                        <ul class="list-unstyled list-inline team-social">
-                            <li class="list-inline-item"><a href="https://www.instagram.com/wizlaye.officiel/?hl=fr"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.github.com/abdoukhadre-searching"><i class="fab fa-github"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/mwlite/in/abdoulaye-ndiaye-151658238"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                </article>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!--  PARTNER END  -->
+<!-- Les Responsables pédagogiques fin   -->
+<!--  responsables finance  -->
+<section class="bg-02">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="head-01">
+                    <h2>Les responsables de la finance</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
+                <div class="team-main-box">
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
+                <div class="team-main-box">
+                    <img src="images/team/tresorier1.jpg">
+                    <div class="team-content-box">
+                        <ul>
+                            <li class="list-inline-item"><a href=" https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=whatsapp"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/mame-faye-533028232"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="https://gitlab.com/Mame2.0"><i class="fab fa-github"></i></a></li>
+
+                        </ul>
+                        <h3>lamine Ayoba GUEYE</h3>
+                        <b>Développeur Laravel full-stack</b>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
+                <div class="team-main-box">
+                    <img src="images/team/tresorier2.jpg">
+                    <div class="team-content-box">
+                        <ul>
+                            <li class="list-inline-item"><a href="https://gitlab.com/Lamine785260388"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://linkedin.com/in/abdou-khadre-ndiaye-802211232/"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                        <h3>Mouhamed Moustapha TRAORE</h3>
+                        <b>Développeur Code Igniter</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-sm-6">
+                <div class="team-main-box">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  chef de projet END  -->
 
 <!--  FOOTER AREA START  -->
 
