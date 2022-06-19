@@ -154,49 +154,27 @@ FACEBOOK: https://www.facebook.com/themefisher
       <div class="col-lg-4 col-sm-6 col-md-6">
         <div class="service-box">
           <div class="service-img-icon">
-            <img src="images/icon/007-digital-marketing-3.png" alt="service-icon" class="img-fluid">
+            <img src="images/icon/010-digital-marketing.png" alt="service-icon" class="img-fluid">
+            {{-- <img src="images/icon/007-digital-marketing-3.png" alt="service-icon" class="img-fluid"> --}}
           </div>
           <div class="service-inner">
-            <h4>Marketing digital</h4>
-            <p>Reach a huge area of users and get a publicty of your product and service ,<span>video marketing</span>
-              solution.</p>
+              <h4>Création d'application</h4>
+              <p>Conception et réalisation <span>d'application Web et Mobile</span> qui s'adapte aux différents appareils</p>
+            {{-- <h4>Marketing digital</h4> --}}
+            {{-- <p>Reach a huge area of users and get a publicty of your product and service ,<span>video marketing</span>
+              solution.</p> --}}
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 col-md-6">
         <div class="service-box ">
           <div class="service-img-icon">
-            <img src="images/icon/008-digital-marketing-2.png" alt="service-icon" class="img-fluid">
+            <img src="images/icon/smartphone.png" width="64px" height="64px" alt="service-icon" class="img-fluid">
+            {{-- <img src="images/icon/008-digital-marketing-2.png" alt="service-icon" class="img-fluid"> --}}
           </div>
           <div class="service-inner">
-            <h4>Email Marketing</h4>
-            <p>Email Marketing is a great solution to reach a <span>high range of customers</span> eagrerly waiting to
-              get a service.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 col-md-6">
-        <div class="service-box">
-          <div class="service-img-icon">
-            <img src="images/icon/003-task.png" alt="service-icon" class="img-fluid">
-          </div>
-          <div class="service-inner">
-            <h4>SEO optimization</h4>
-            <p>we provide wide range of<span> seo service</span> to make your site at top to reach your target customers
-              provided.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-sm-6 col-md-6">
-        <div class="service-box">
-          <div class="service-img-icon">
-            <img src="images/icon/010-digital-marketing.png" alt="service-icon" class="img-fluid">
-          </div>
-          <div class="service-inner">
-            <h4>Custom Website</h4>
-            <p>We provide <span>custom website</span> for any small and large company web based service in large compact
-              package.</p>
+            <h4>Maison intelligente</h4>
+            <p>La fabrication de<span> Maison intelligente</span> avec différents éléments pilotable depuis des applications mobiles</p>
           </div>
         </div>
       </div>
@@ -204,23 +182,45 @@ FACEBOOK: https://www.facebook.com/themefisher
         <div class="service-box">
           <div class="service-img-icon">
             <img src="images/icon/006-analytics.png" alt="service-icon" class="img-fluid">
+            {{-- <img src="images/icon/003-task.png" alt="service-icon" class="img-fluid"> --}}
           </div>
           <div class="service-inner">
-            <h4>Content Growth</h4>
-            <p>Content is king,Having a blog site and want to <span>build content</span> make a platform of earning too
-              we assist you.</p>
+            <h4>Analyse de données</h4>
+            <p>Nous fournissons une bonne<span> analyse de données</span> pour les statistiques de votre entreprise</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 col-md-6">
+        <div class="service-box">
+          <div class="service-img-icon">
+            <img src="images/icon/data.png" width="50px" height="50px" alt="service-icon" class="img-fluid">
+          </div>
+          <div class="service-inner">
+            <h4>Création de site</h4>
+            <p>Nous vous proposons <span>des sites web</span> pour augmenter la visibilité de votre entreprise.</p>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 col-md-6">
         <div class="service-box">
           <div class="service-img-icon">
-            <img src="images/icon/004-hiring.png" alt="service-icon" class="img-fluid">
+            <img src="images/icon/007-digital-marketing-3.png" alt="service-icon" class="img-fluid">
           </div>
           <div class="service-inner">
-            <h4>Link Building </h4>
-            <p>Want to grow your <span>potential visitor</span> your site to make it more effective and succesful
-              business .</p>
+            <h4>Marketing digital</h4>
+            <p>Création de logo, flyers, affiche publicitaire et de CV</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-md-6">
+        <div class="service-box">
+          <div class="service-img-icon">
+            <img src="images/icon/maintenances.png" width="64px" height="64px" alt="service-icon" class="img-fluid">
+          </div>
+          <div class="service-inner">
+            <h4>Maintenance informatique </h4>
+            <p>Pour l'installation de votre machine, </p>
           </div>
         </div>
       </div>
@@ -234,24 +234,24 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
         <div class="mb-5">
-          <h3 class="mb-2">Trusted by hundred over years</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dignissimos?</p>
+          <h3 class="mb-2">Notre produit ALAFUNTI</h3>
+          <p>La marque ALAFUNTI est un produit de la Team Ethical Hackers </p>
         </div>
       </div>
     </div>
 
     <div class="row">
       <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-        <img src="images/clients/client01.png" alt="partner" class="img-fluid">
+        <img src="images/alafunti1.jpg" alt="partner" class="img-fluid">
       </div>
       <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-        <img src="images/clients/client06.png" alt="partner" class="img-fluid">
+        <img src="images/alafunti2.jpg" alt="partner" class="img-fluid">
       </div>
       <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-        <img src="images/clients/client04.png" alt="partner" class="img-fluid">
+        <img src="images/alafunti3.jpg" alt="partner" class="img-fluid">
       </div>
       <div class="col-lg-3 col-sm-6 col-md-3 text-center">
-        <img src="images/clients/client05.png" alt="partner" class="img-fluid">
+        <img src="images/alafunti4.jpg" alt="partner" class="img-fluid">
       </div>
     </div>
   </div>
@@ -265,50 +265,33 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="row justify-content-around">
       <div class="col-lg-4">
         <div class="footer-widget footer-link">
-          <h4>We concern about you<br> to grow business rapidly.</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam hic non sunt recusandae atque unde saepe nihil earum voluptatibus aliquid optio suscipit nobis quia vel quod, iure quae.</p>
+          <h4>Nous nous préoccupons de vouspour développer<br>  rapidement les affaires.</h4>
+          <p>Pour l'installation de Système d'exploitation, la réalisation de site vitrine et les conceptions d'affiches, de flyers, Logo et CV.</p>
         </div>
       </div>
       <div class="col-lg-2 col-md-4 col-6">
         <div class="footer-widget footer-link">
           <h4>About</h4>
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="service.html">Service</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="#!">Team</a></li>
-            <li><a href="#!">Testimonials</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="{{url('/about')}}">Membre</a></li>
+            <li><a href="{{url('/service')}}">Service</a></li>
+            <li><a href="{{url('/contact')}}">Projets</a></li>
           </ul>
         </div>
       </div>
-
-      <div class="col-lg-2 col-md-4 col-6">
-        <div class="footer-widget footer-link">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#!">How it Works</a></li>
-            <li><a href="#!">Support</a></li>
-            <li><a href="#!">Privacy Policy</a></li>
-            <li><a href="#!">Report Bug</a></li>
-            <li><a href="#!">License</a></li>
-            <li><a href="#!">Terms & Condition</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-12">
+      <div class="col-lg-5 col-md-4 col-sm-12">
         <div class="footer-widget footer-text">
-          <h4>Our location</h4>
-          <p class="mail"><span>Mail:</span> promdise@gmail.com</p>
-          <p><span>Phone :</span>+202-277-3894</p>
-          <p><span>Location:</span> 455 West Orchard Street Kings Mountain, NC 28086,NOC building</p>
+          <h4>Notre emplacement</h4>
+          <p class="mail"><span>Mail:</span> teamethicalhackers15@gmail.com</p>
+          <p><span>Téléphone :</span>+221 78 370 99 08</p>
+          <p><span>lieu:</span>  Université Alioune Diop de Bambey, Diourbel, Sénégal</p>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-12 text-center">
         <div class="footer-copy">
-          Copyright &copy; 2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a>
+          Copyright &copy; 2022 Team Ethical Hackers. All Rights Reserved
         </div>
       </div>
     </div>
