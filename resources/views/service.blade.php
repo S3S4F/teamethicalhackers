@@ -1,11 +1,3 @@
-{{-- @extends('app')
-@section('contenu')
-
-
-
-@endsection
- --}}
-
  <!DOCTYPE html>
  <html lang="zxx">
 
@@ -43,8 +35,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
         <div class="banner-content content-padding">
-          <h1 class="text-white">Services we provide</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, perferendis?</p>
+          <h1 class="text-white">Services</h1>
+          <p>Nous fournissons beaucoup de services dans le domaines de TIC</p>
         </div>
       </div>
     </div>
@@ -72,7 +64,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 <!--MAIN HEADER AREA END -->
 
 <!--  SERVICE BLOCK2 START  -->
-<section id="service-2" class="section-padding pb-5">
+{{-- <section id="service-2" class="section-padding pb-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-6">
@@ -99,11 +91,11 @@ FACEBOOK: https://www.facebook.com/themefisher
       </div>
     </div>
   </div>
-</section>
+</section> --}}
 <!--  SERVICE BLOCK2 END  -->
 
 <!--  SERVICE AREA START  -->
-<section class="section pt-0">
+{{-- <section class="section pt-0">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-5 col-sm-12 col-md-6 mb-5 mb-lg-0">
@@ -139,10 +131,10 @@ FACEBOOK: https://www.facebook.com/themefisher
       </div>
     </div>
   </div>
-</section>
+</section> --}}
 <!--  SERVICE AREA END  -->
 <!--  SERVICE PARTNER START  -->
-<section id="service-head" class="service-style-two">
+{{-- <section id="service-head" class="service-style-two">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 col-sm-12 m-auto">
@@ -153,7 +145,7 @@ FACEBOOK: https://www.facebook.com/themefisher
       </div>
     </div>
   </div>
-</section>
+</section> --}}
 <!--  SERVICE PARTNER END  -->
 <!--  SERVICE AREA START  -->
 <section id="service">
@@ -165,7 +157,7 @@ FACEBOOK: https://www.facebook.com/themefisher
             <img src="images/icon/007-digital-marketing-3.png" alt="service-icon" class="img-fluid">
           </div>
           <div class="service-inner">
-            <h4>Video Marketing</h4>
+            <h4>Marketing digital</h4>
             <p>Reach a huge area of users and get a publicty of your product and service ,<span>video marketing</span>
               solution.</p>
           </div>
